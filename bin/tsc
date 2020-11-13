@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -i --rm -v $(pwd):/home/josh --user (id -u):(id -g) --name tsc tsc tsc $*
